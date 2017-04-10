@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"ma",
+				"maxlength\tAttr"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"tab",
+				"table-bordered"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"ta",
+				"table\tTag"
+			],
+			[
+				"text-decora",
+				"text-decoration-color"
+			],
+			[
+				"dec",
+				"text-decoration"
+			],
+			[
+				"cod",
+				"codesquirrel"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
 				"ava",
 				"available_moves"
 			],
@@ -35,8 +71,26 @@
 			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 2908,
+				"buffer_size": 3219,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sudoku.php",
+			"settings":
+			{
+				"buffer_size": 8808,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "sudoku.php"
+			}
+		},
+		{
+			"file": "about.php",
+			"settings":
+			{
+				"buffer_size": 815,
 				"line_ending": "Windows"
 			}
 		},
@@ -44,7 +98,7 @@
 			"file": "css/main.css",
 			"settings":
 			{
-				"buffer_size": 55,
+				"buffer_size": 57,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -88,10 +142,18 @@
 	"expanded_folders":
 	[
 		"/C/xampp/htdocs/codesquirrel",
-		"/C/xampp/htdocs/codesquirrel/css"
+		"/C/xampp/htdocs/codesquirrel/css",
+		"/C/xampp/htdocs/codesquirrel/js"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/codesquirrel/css/sudoku.css",
+		"/C/xampp/htdocs/codesquirrel/about.php",
+		"/C/xampp/htdocs/codesquirrel/index.php",
+		"/C/xampp/htdocs/codesquirrel/css/main.css",
+		"/C/xampp/htdocs/codesquirrel/.htaccess",
+		"/C/xampp/htdocs/codesquirrel/footer.php",
+		"/C/xampp/htdocs/codesquirrel/contact.php",
 		"/C/Projects/practice/test.html",
 		"/C/Projects/practice/dragonsNdungeons/welcome.py",
 		"/C/Projects/practice/dragonsNdungeons/dnd.py",
@@ -154,6 +216,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"background-color: blue;\n}",
 			"icon-bar",
 			"$table_bp->sql"
 		],
@@ -179,7 +242,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -188,43 +251,103 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2908,
+						"buffer_size": 3219,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1292,
-								1292
+								351,
+								351
 							]
 						],
 						"settings":
 						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sudoku.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8808,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								987,
+								987
+							]
+						],
+						"settings":
+						{
+							"auto_name": "sudoku.php",
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 621.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "css/main.css",
-					"semi_transient": false,
+					"buffer": 2,
+					"file": "about.php",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 55,
+						"buffer_size": 815,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								55,
-								55
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 57,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
 							]
 						],
 						"settings":
@@ -235,7 +358,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

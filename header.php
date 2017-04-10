@@ -10,10 +10,19 @@
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+  
+	<script type="text/javascript">
+		
+		function notYet()
+		{
+			alert("Sorry Dude! this isn't working yet!  but don't sweat it, I'm working on it.");
+		}
+
+	</script>
 
 </head>
 <body>
- 
+
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -24,18 +33,21 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <img src="mark-tan.png" height="50" width="50"><a class="navbar-brand" href="#"> CodeSquirrel</a>
+      <div>
+      <a class="navbar-brand" href="home"> 
+      <img src="https://placebear.com/200/200" height="50" width="50"></a><a class="navbar-brand" href="home">CodeSquirrel</a>
+      </div>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">About <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="active"><a href="about">About <span class="sr-only">(current)</span></a></li>
+        <li><a href="contact">Contact</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
+            <li><a href="sudoku">Sudoku</a></li>
             <li><a href="#">Another action</a></li>
             <li><a href="#">Something else here</a></li>
             <li role="separator" class="divider"></li>
@@ -49,10 +61,10 @@
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+        <button type="button" class="btn btn-default" onclick="notYet()">Submit</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
+        <li><a href="#" onclick="notYet()">Link</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
