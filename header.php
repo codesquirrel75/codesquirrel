@@ -35,7 +35,7 @@
       </button>
       <div>
       <a class="navbar-brand" href="home"> 
-      <img src="https://placebear.com/200/200" height="50" width="50"></a><a class="navbar-brand" href="home">CodeSquirrel</a>
+      <img src="img/world.png" height="50" width="50"></a><a class="navbar-brand" href="home">CodeSquirrel</a>
       </div>
     </div>
 

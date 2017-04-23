@@ -4,6 +4,58 @@
 		"selected_items":
 		[
 			[
+				"pl",
+				"player_score"
+			],
+			[
+				"deal",
+				"dealer_score"
+			],
+			[
+				"de",
+				"dealer_score"
+			],
+			[
+				"play",
+				"player_score"
+			],
+			[
+				"dea",
+				"dealerScore"
+			],
+			[
+				"car",
+				"card2"
+			],
+			[
+				"panel",
+				"panel-body"
+			],
+			[
+				"pla",
+				"playerCard"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"col",
+				"col-md-3"
+			],
+			[
+				"co",
+				"col-md-9"
+			],
+			[
+				"pan",
+				"panel-body"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
 				"set",
 				"set_index"
 			],
@@ -30,10 +82,6 @@
 			[
 				"q",
 				"quadrants"
-			],
-			[
-				"get",
-				"get_quadrant"
 			],
 			[
 				"ind",
@@ -139,17 +187,38 @@
 			"file": "sudoku.php",
 			"settings":
 			{
-				"buffer_size": 19362,
+				"buffer_size": 19364,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "[1][2][3][4][5][6][7][8][9]\n[8][4][6][7][9][][][][]\n[9][5][7][8][1][][][][]\n[2][6][9][1][4][][][][]\n[3][7][1][2][6][][][][]\n[4][8][5][3][7][][][][]\n[5][9][2][6][][][][][]\n[6][1][4][5][][][][][]\n[7][3][8][9][][][][][]",
+			"file": "tempSdko.html",
 			"settings":
 			{
 				"buffer_size": 216,
+				"encoding": "UTF-8",
 				"line_ending": "Windows",
 				"name": "[1][2][3][4][5][6][7][8][9]"
+			}
+		},
+		{
+			"file": "hilo.php",
+			"settings":
+			{
+				"buffer_size": 3993,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "hilo.php"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 3215,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -196,6 +265,8 @@
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/codesquirrel/hilo.php",
+		"/C/xampp/htdocs/codesquirrel/hilo.html",
 		"/C/xampp/htdocs/codesquirrel/sudoku.php",
 		"/C/xampp/htdocs/codesquirrel/css/main.css",
 		"/C/xampp/htdocs/codesquirrel/header.php",
@@ -303,7 +374,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -312,15 +383,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19362,
+						"buffer_size": 19364,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								18855,
+								18855
 							]
 						],
 						"settings":
@@ -329,7 +400,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1250.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -337,6 +408,7 @@
 				},
 				{
 					"buffer": 1,
+					"file": "tempSdko.html",
 					"semi_transient": false,
 					"settings":
 					{
@@ -354,13 +426,73 @@
 						"settings":
 						{
 							"auto_name": "[1][2][3][4][5][6][7][8][9]",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "hilo.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3993,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								901,
+								901
+							]
+						],
+						"settings":
+						{
+							"auto_name": "hilo.php",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1888,
+								1888
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 780.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
